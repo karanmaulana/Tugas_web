@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Cafe Site Map</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 50px 0;
+        }
+
+        .site-map {
+            text-align: center;
+        }
+
+        h1 {
+            font-family: cursive;
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .top-level {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .category {
+            position: relative;
+        }                                                                  
+        .oval {
+            border: 1px solid #333;
+            background: #fff;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #f4f4f4;
+            margin: 40px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        header nav :active header nav :active {
+            background: black;
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href=" menu.html" class=" active">menu</a>
+            <a href="site_site map.html">site map</a>
+            <a href="about.html">about</a>
+            <a href="contact.html">contact</a>
+        </nav>
+    </header>
+    <div class="site-map">
+        <h1>Site Map</h1>
+        <div class="top-level">
+            <!-- Menu -->
+            <div class="category">
+                <div class="oval"><a href="menu.html">Menu</a></div>
+
+            </div>
+
+            <!-- About -->
+            <div class="category">
+                <div class="oval"><a href="about.html">About </a></div>
+            </div>
+
+            <!-- Contact -->
+            <div class="category">
+                <div class="oval"><a href="contact.html">Contact</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
